@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white !important;
+    font-family: Helvetica;
+  }
+  
+  nav {
+    margin: 0;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    border-bottom: 1px solid white;
+    z-index: 1;
+    background-color: black;
+  }
+  
+  nav ul {
+    margin-right: 5px;
+    padding-top: 5px;
+  }
+  
+  nav ul li {
+    display: inline;
+    float: right;
+  }
+  
+  nav ul li a {
+    margin-left: 10px;
+    color: white;
+  }
+  
+  #logo {
+    position: absolute;
+    left: 0px;
+    top: 8px;
+  }
+  
+  #logo img {
+    height: 50px;
+  }
+  
+  .hero {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+  }
+  
+  h2,
+  h4 {
+    text-align: center;
+  }
+  
+  .Tea-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .item img{
+    width: 300px;
+    height: 200px;
+  }
+  .item h4 {
+    text-align: center;
+  }
+  section {
+    width: 1000px;
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+  }
+  
+  .location{
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 70px;
+  
+  }
+  .location h2{
+    padding: 30px;
+  }
+  .locations-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+  }
+  .locations-item {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .dummy-div{
+    height: 200px;
+  }
+  footer {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    align-content:center;
+    margin-bottom: 30px;
+    height: 200px;
+  }
+  .copyright {
+    position: absolute;
+    bottom:0;
+    left: 20px;
+  }
